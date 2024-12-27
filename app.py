@@ -9,7 +9,6 @@ app = Flask(__name__)
 def show_string(string_value):
     app.logger.info(f"Received string_value: {string_value}")
     print("DEV4!")
-    print("dev에서 머지")
     return show_strings(string_value)
 
 if __name__ == '__main__':
