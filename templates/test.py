@@ -52,7 +52,7 @@ sql_result = show_sql_string_from_csv(csv_file_path)
 file_path = 'output.txt'
 with open(file_path, 'w') as file:
     file.write(sql_result)
-print("TEST COMMIT")
+print("TEST COMMIT~~")
 
 print(f"SQL 쿼리가 {file_path}에 저장되었습니다.")
 
