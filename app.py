@@ -12,7 +12,8 @@ def show_string(string_value):
     print("new")
     print("새로운커밋")
     print("STASH1")
-    print("d아멘드할거..")
+    print("d아멘드할거..!!")
+    print("d아멘드할거..!!22")
     return show_strings(string_value)
 
 
