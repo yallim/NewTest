@@ -11,7 +11,10 @@ def show_string(string_value):
     print("새로추가할거~를 지움")
     print("new")
     print("새로운커밋")
+    print("STASH1")
+    print("d아멘드할거..")
     return show_strings(string_value)
+
 
 if __name__ == '__main__':
     app.run(debug=True,port=8080)

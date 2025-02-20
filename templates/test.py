@@ -46,6 +46,7 @@ values ({character_lesson_id}, {user_id}, {character_uid}, @rank,
 
 
 csv_file_path = 'character.csv'
+print("STATSH!")
 
 sql_result = show_sql_string_from_csv(csv_file_path)
 
