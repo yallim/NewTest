@@ -13,6 +13,8 @@ def show_string(string_value):
     print("새로운커밋")
     print("STASH1")
     print("d아멘드할거..")
+    print("d제목만지정..")
+    print("고칠거.!.")
     return show_strings(string_value)
 
 
