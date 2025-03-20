@@ -14,7 +14,7 @@ def show_string(string_value):
     print("STASH1")
     print("d아멘드할거..")
     print("d제목만지정..")
-    print("고칠거.!.")
+    print("고칠거.!...")
     return show_strings(string_value)
 
 
