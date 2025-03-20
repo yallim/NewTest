@@ -15,6 +15,7 @@ def show_string(string_value):
     print("d아멘드할거..")
     print("d제목만지정..")
     print("고칠거.!..±±!.")
+    print("아멘드대상!")
     return show_strings(string_value)
 
 
