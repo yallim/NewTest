@@ -21,6 +21,7 @@ def show_string(string_value):
     print("찐최종aㅁs")
     print("찐최종aㅁs")
     print("찐최종aㅁs")
+    print("찐최종aㅁs")
     return show_strings(string_value)
 
 
