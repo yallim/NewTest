@@ -13,6 +13,13 @@ def show_string(string_value):
     print("열작업중1")
     print("열작업중2")
     print("다른작업중;")
+    print("다른작업중;")
+    print("다른작업중;;")
+    print("다른작업중;;")
+    print("다른작업중;;")
+    print("다른작업중;;")
+    print("다른작업중;;")
+    print("다른작업중;3;")
     
     return show_strings(string_value)
 
