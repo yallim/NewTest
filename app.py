@@ -11,6 +11,7 @@ def show_string(string_value):
     print("release만의작업")
     print("열작업중")
     print("열작업중1")
+    print("열작업중2")
     
     return show_strings(string_value)
 
