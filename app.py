@@ -8,17 +8,7 @@ app = Flask(__name__)
 @app.route('/<string_value>')
 def show_string(string_value):
     app.logger.info(f"Received string_value: {string_value}")
-    print("release만의작업")
-    print("열작업중")
-    print("열작업중1")
-    print("열작업중2")
-    print("다른작업중;")
-    print("다른작업중2;")
-    print("다른작업중2;")
-    print("다른작업중2;")
-    print("다른작업중2;")
-    print("다른작업중2;메인만..")
-
+    print("contets")
     
     return show_strings(string_value)
 
