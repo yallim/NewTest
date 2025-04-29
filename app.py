@@ -16,6 +16,7 @@ def show_string(string_value):
     print("main")
     print("contents")
     print("contents")
+    print("rebase main")
 
     return show_strings(string_value)
 
