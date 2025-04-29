@@ -12,6 +12,8 @@ def show_string(string_value):
     print("main")
     print("main")
     print("main")
+    print("main")
+    print("main")
 
     
     return show_strings(string_value)
