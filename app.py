@@ -17,7 +17,8 @@ def show_string(string_value):
     print("다른작업중2;")
     print("다른작업중2;")
     print("다른작업중2;")
-    
+    print("다른작업중2;메인만..")
+
     
     return show_strings(string_value)
 
