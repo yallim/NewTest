@@ -10,7 +10,8 @@ def show_string(string_value):
     app.logger.info(f"Received string_value: {string_value}")
     print("contets")
     print("contents")
-
+    print("contents")
+    print("contents")
     
     return show_strings(string_value)
 
