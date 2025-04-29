@@ -9,11 +9,6 @@ app = Flask(__name__)
 def show_string(string_value):
     app.logger.info(f"Received string_value: {string_value}")
     print("contets")
-    print("main")
-    print("main")
-    print("main")
-    print("main")
-    print("main")
     print("contents")
 
     
