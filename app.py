@@ -14,6 +14,7 @@ def show_string(string_value):
     print("contents")
     print("contents")
     print("contents")
+    print("contents....")
     
     return show_strings(string_value)
 
