@@ -1,23 +1,14 @@
-from flask import Flask
-import logging
-from templates.test import show_strings
+import json
+import html
 
-logging.basicConfig(level=logging.DEBUG)
-app = Flask(__name__)
+with open('game-avalon-world.bytes', 'rb') as f:
+    byte_data = f.read()
 
-@app.route('/<string_value>')
-def show_string(string_value):
-    app.logger.info(f"Received string_value: {string_value}")
-    print("contets")
-    print("contents")
-    print("contents")
-    print("contents")
-    print("contents")
-    print("contents")
-    print("contents..!!..")
-    
-    return show_strings(string_value)
+# cp949로 디코딩
+decoded_str = html.unescape(byte_data.decode('cp949'))  # 또는 'euc-kr'
 
+# JSON 파싱
+json_data = json.loads(decoded_str)
 
-if __name__ == '__main__':
-    app.run(debug=True,port=8080)
+print(json_data)
+
